@@ -1,0 +1,42 @@
+.wrapper {
+    position: absolute;
+    margin-left: 356px;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+.wrapper::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+.post-user {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+
+    img {
+        object-fit: cover;
+    }
+}
+.post-user img {
+    border-radius: 99999px;
+}
+.title-username {
+    padding-left: 10px;
+}
+.title-username p {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    margin-top: 50px;
+}
+
+video {
+    padding-top: 10px;
+    border-radius: 25px;
+}

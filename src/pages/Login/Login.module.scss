@@ -1,0 +1,42 @@
+.wrapper {
+    margin-top: 10vh;
+    margin-left: 400px;
+    text-align: center;
+}
+.input-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.input-form input,
+button,
+.button-login {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+    text-align: center;
+}
+
+form button,
+.button-login {
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12),
+        0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.alert {
+    color: red;
+}
